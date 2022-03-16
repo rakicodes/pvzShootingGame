@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Plant vs Zombies</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+
+		<section class="zombies">
+			<h2 id="status"></h2>
+			<h2 id="aim" class="target hidden">Shoot</h2>
+
+			<img id="target1" class="target hidden" src="img/redTarget.png" alt="">
+			<img id="regularZombieImg" class="zombie hidden" src="img/regularZombie.png" alt="">
+			<img id="regularZombie" class="zombie" src="https://media3.giphy.com/media/jJNdduVE4j9cc/giphy.gif?cid=790b7611c8f9355b617135fd0cc86795918142e2647a2dce&rid=giphy.gif&ct=s" alt="">
+
+			<img id="target2" class="target hidden" src="img/redTarget.png" alt="">
+			<img id="mjZombieImg" class="zombie hidden" src="img/mjZombie.png" alt="">
+			<img id="mjZombie" class="zombie" src="https://media3.giphy.com/media/wRkhlUsqwJb20/giphy.gif?cid=ecf05e47rs8d1yfl7jldblydaqueblj75xj5rwuftlg9fgqk&rid=giphy.gif&ct=s" alt="">
+
+			<img id="target3" class="target hidden" src="img/redTarget.png" alt="">
+			<img id="jumpingZombieImg" class="zombie hidden" src="img/jumpingZombie.png" alt="">
+			<img id="jumpingZombie" class="zombie" src="https://media0.giphy.com/media/XfEeIyH8hAXTi/giphy.gif?cid=ecf05e47oykv6igz781azu26lmgrqm2z9nrl178i931ghabt&rid=giphy.gif&ct=s" alt="">
+
+		</section>
+
+
+
+		<div class="player">
+			<section class="plants choices">
+				<h2>Choose your plant:</h2>
+				<div  id="peashooterContainer" class="plant" ><img id="peashooter" src="img/peashooter.png" alt=""></div>
+				<div  id="threepeaterContainer" class="plant"><img  id="threepeater" src="img/threepeater.png" alt=""></div>
+				<div  id="snowpeaContainer"class="plant"><img id="snowpea" src="img/snowPea.png" alt=""></div>
+			</section>
+	
+			<section class="plants current">
+				<div id="peashooterMoving" class="gif hidden" ><img src="img/peashooter.gif" alt=""></div>
+				<div id="threepeaterMoving" class="gif hidden"><img src="img/threepeater.gif" alt=""></div>
+				<div id="snowpeaMoving" class="gif hidden"><img src="img/snowPea.gif" alt=""></div>
+			</section>
+		</div>
+
+
+
+
+
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
